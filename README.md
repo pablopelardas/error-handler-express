@@ -1,5 +1,3 @@
-# README.md
-
 # Muestra Express Error Handler
 
 Les dejo en este repositorio un ejemplo de manejador de errores haciendo uso del middleware de express que recibe errores y nos permite entregarlos al cliente sin vulnerabilidades y formateado de forma correcta:
