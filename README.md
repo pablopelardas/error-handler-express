@@ -25,7 +25,7 @@ app.get("/products", async (req, res, next) => {
         if (true) throw new CustomError({message: "Error personalizado", status: 500})
 
     } catch (error) {
-				// hacemos un next para mandar el error al middleware de errores
+	// hacemos un next para mandar el error al middleware de errores
         next(error)
     }
 
