@@ -40,6 +40,7 @@ app.use(errorHandler)
 ### utils/CustomError.js
 
 Una clase que extiende de Error para que el middleware manejador de errores de express reconozca al objeto como un objeto de error. Hacemos esto para poder customizar la información que queremos mandar en el error, en este caso sólo ****************message y status**************** pero se podría agregar cualquier cosa.
+El super lo llamamos para pisar la propiedad message que ya tiene el objeto error por default.
 
 ```jsx
 class CustomError extends Error {
