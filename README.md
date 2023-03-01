@@ -54,9 +54,7 @@ class CustomError extends Error {
 ### middlewares/errorHandler.js
 
 Es un middleware de express que recibe los 4 parametros (error, request, response y next).
-
 Lo que hacemos en él es crear un nuevo objeto con un status y mensaje (y los campos que quieran agregar) que, si nos llega en el objeto error un status y mensaje los asigne, y sino asigne un error generico de status 500 y mensaje ****************Internal Server Error****************
-
 Esto lo hacemos por si llega un error que no sea creado por nuestro custom error
 
 ```jsx
