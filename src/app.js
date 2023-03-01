@@ -11,7 +11,7 @@ const errorHandler = require("./middlewares/errorHandler")
 const app = express();
 app.use(express.urlencoded({ extended: true }))
 
-app.get("/products", async (req, res, next) => {
+app.get("/", async (req, res, next) => {
     try {
         // ... código de la ruta
 
