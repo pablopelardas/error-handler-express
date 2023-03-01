@@ -3,7 +3,6 @@ const express = require("express");
 // Esto es para crear errores personalizados
 const CustomError = require("./utils/CustomError") 
 
-// Esto es para formatear la respuesta que se envía al cliente
 // Esto es el middleware que maneja los errores
 const errorHandler = require("./middlewares/errorHandler")
 
